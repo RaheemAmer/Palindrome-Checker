@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Tahoma, sans-serif;
+    transition: all 0.3s ease-in-out;
 }
 body{
     display: flex;
@@ -79,3 +80,4 @@ header p {
 .info-text span{
     color: rgb(32, 83, 177);
 }
+

@@ -20,6 +20,7 @@ textInput.addEventListener("keyup", () => {
     //Removes special characters and spaces
     filterInput = textInput.value.replace(/[^A-Z0-9]/ig, "");
     if (filterInput) {
+        //Adds the active class if the input is not empty
         checkBtn.classList.add('active');
     }
     else {
