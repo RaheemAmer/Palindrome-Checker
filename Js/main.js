@@ -23,6 +23,9 @@ textInput.addEventListener("keyup", () => {
         checkBtn.classList.add('active');
     }
     else {
+        //Removes the info text if the user deletes all the characters
+        infoText.style.display = "none"
+        //Removes the active class if the input is empty
         checkBtn.classList.remove('active');
     }
 });
