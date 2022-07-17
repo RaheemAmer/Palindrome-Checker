@@ -59,8 +59,13 @@ header p {
     cursor: pointer;
     opacity: 0.7;
     height: 55px;
+    pointer-events: none;
 }
 
+.inputs button.active {
+    opacity: 1;
+    pointer-events: auto;
+}
 .info-text{
     display: none;
     font-size: 0.9em;
